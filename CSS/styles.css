@@ -1,5 +1,5 @@
 body {
-    background-color: #ffc13b;
+    background: linear-gradient(60deg, #ffc13b 50%, #f5f0e1 50%);
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -10,11 +10,14 @@ header {
 }
 nav {
     width: 100%;
-    height: 80px;
-    background-color: #1e3d59;
+    height: 70px;
+    background: rgba(30,61, 89, 0.95);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     overflow: hidden;
     position: fixed;
     align-items: center;
+    top: 0;
 }
 nav ul {
 
@@ -63,51 +66,79 @@ a:hover {
 }
 #sidebar {
     width: 25%;
+    height: 320px;
     margin: 20px 20px 0px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1e3d59;
-    border-radius: 15px;
+    background: rgba(255, 110, 64, 0.7);
+    border-radius: 10px;
     color: #f5f0e1;
+
 }
 .bocks {
-    width: 95%;
-    height: 300px;
+    width: 80%;
+    height: 150px;
     margin: 20px 20px 0px 20px;
-    background-color: #1e3d59;
+    background: rgba(30,61, 89, 0.9);
+    box-shadow: 0 5px 25px 0 rgba( 30,61, 89, 0.7);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(30,61, 89, 0.9);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 10px;
     color: #f5f0e1;
-    font-size: 30px;
+    font-size: 15px;
 }
 .bocks:hover {
     transform: scale(0.95);
     cursor: hand;
-}
-footer {
-    width: 100%;
-    height: 150px;
-    background-color: #1e3d59;
-    margin-top: 50px;
+
 }
 article {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
-#contactinfo {
-    width: 100%;
-    height: 400px;
-    background-color: #1e3d59;
-    border-radius: 15px;
-    color: #f5f0e1;
+#icons{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
-    font-size: 30px;
-    margin-bottom: 20px;
+    width: auto;
+    height: 45px;
+    background: rgba(30,61, 89, 0.9);
+    box-shadow: 0 5px 25px 0 rgba( 30,61, 89, 0.7);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(30,61, 89, 0.2);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    top: 0; right: 0; bottom: 0; left: 0;
+
+
+
+}
+.logo-img {
+    width: 30px;
+    border-radius: 10%;
+}
+.contact-name {
+    display: flex;
+    margin: 40px;
+}
+.logo-text {
+    font-weight: bold;
+    padding: 10px 0px 0px 5px;
+}
+.site-link {
+    text-decoration: none;
+    color: #f5f0e1;
+}
+.contact-name:hover {
+    transform: scale(1.1);
+    cursor: hand;
 }
