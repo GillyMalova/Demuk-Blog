@@ -9,14 +9,13 @@ header {
     display: flex;
 }
 nav {
-    width: 100%;
+    width: auto;
     height: 70px;
     background: rgba(30,61, 89);
     overflow: hidden;
     position: fixed;
     align-items: center;
-    top: 0;
-    bottom: 0;
+    top: 0; right: 0;bottom: 0; left: 0;
 }
 nav ul {
 
