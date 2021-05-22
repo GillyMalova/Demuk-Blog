@@ -49,66 +49,61 @@ a:hover {
 .navtext {
     font-size: 20px;
 }
-#content {
-    display: flex;
-    margin-top: 70px;
-    margin-bottom: 20px;
-}
-#boxes {
-    width: 70%;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-#sidebar {
-    width: 30%;
-    height: 320px;
-    margin: 20px 20px 0px 0px;
+article {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 110, 64, 0.7);
-    box-shadow: 0px 5px 25px 0px rgba(255,110, 64, 0.6);
-    border-radius: 10px;
-    -webkit-backdrop-filter: blur(0.5);
+}
+#reg {
     color: #f5f0e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: underline;
 }
-#sidebar:hover {
-    transform: scale(1.1);
-    cursor: hand;
-}
-.bocks {
-    width: 80%;
-    height: 170px;
-    margin: 20px 20px 0px 20px;
+#regpage {
+    width: 40%;
+    height: 500px;
     background: rgba(30,61, 89, 0.9);
     box-shadow: 0px 5px 25px 0px rgba( 30,61, 89, 0.7);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(30,61, 89, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    color: #f5f0e1;
-    font-size: 17px;
-}
-.boxtitle {
-    list-style-type: none;
-    text-decoration: none;
-    color: #f5f0e1;
-    background-color: none;
-}
-.bocks:hover {
-    transform: scale(0.95);
-    cursor: hand;
-
-}
-article {
-    width: 100%;
+    border-radius: 15px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
+}
+.regcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.reginput {
+    margin: 8px;
+    color: #f5f0e1;
+    margin-bottom: 20px;
+}
+input {
+    border-radius: 5px;
+    width: 60%;
+    height: 25px;
+    text-align: center;
+}
+button {
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+}
+label {
+    color: #f5f0e1;
+}
+footer  {
+    margin-top: 200px;
 }
 #icons{
     display: flex;
@@ -126,9 +121,6 @@ article {
     padding: 10px;
     position: relative;
     top: 0; right: 0; bottom: 0; left: 0;
-
-
-
 }
 .logo-img {
     width: 30px;
