@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(60deg, #ffc13b 50%, #f5f0e1 50%);
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 1080px;
+}
+header {
+    display: flex;
+}
+nav {
+    width: auto;
+    height: 70px;
+    background: rgba(30,61, 89);
+    position: fixed;
+    align-items: center;
+    top: 0; right: 0;bottom: 0; left: 0;
+}
+nav ul {
+
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    color: #f5f0e1;
+    text-decoration: none;
+    padding: 25px;
+    font-weight: 600;
+}
+a:hover {
+    background-color: #091d35;
+    cursor: hand;
+}
+#myblog {
+    font-size: 25px;
+    color: #ff6e40 !important;
+}
+#home {
+    margin-left: 100px;
+}
+#login {
+    margin-left: 100px;
+}
+.navtext {
+    font-size: 20px;
+}
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loginpage {
+    width: 40%;
+    height: 500px;
+    background: rgba(30,61, 89, 0.9);
+    box-shadow: 0px 5px 25px 0px rgba( 30,61, 89, 0.7);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(30,61, 89, 0.9);
+    border-radius: 15px;
+    margin-top: 100px;
+}
+#formname {
+    color: #f5f0e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.logincontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.forminput {
+    margin: 8px;
+    color: #f5f0e1;
+    margin-bottom: 20px;
+}
+input {
+    border-radius: 5px;
+    width: 60%;
+    height: 25px;
+    text-align: center;
+}
+button {
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+}
+#rem {
+    width: 15px;
+    height: 15px;
+}
+label {
+    color: #f5f0e1;
+}
+span {
+    color: #f5f0e1;
+}
+.nohover:hover {
+    background: rgba(30,61, 89, 1);
+}

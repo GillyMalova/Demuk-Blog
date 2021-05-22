@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li id="myblog"><a href="../index.html">My Blog</a></li>
+                    <li id="home" class="navtext"><a href="../index.html">Home</a></li>
+                    <li class="navtext"><a href="#">About</a></li>
+                    <li class="navtext"><a href="#contacts">Contacts</a></li>
+                    <li id="login" class="navtext"><a href="#">Login</a></li>
+                    <li class="navtext"><a href="#">Register</a></li>
+                </ul>
+            </nav>
+        </header> 
+        <article>
+            <div id="loginpage">
+                <div id="formname">Enter Login Details</div>
+                <form action="#" method="POST">
+                    <div class="logincontainer">
+                        <label for="username"><b>Username</b></label>
+                        <input class="forminput" type="text" placeholder="Enter Username" name="username" required>
+                        <label for="password"><b>Password</b></label>
+                        <input class="forminput" type="password" placeholder="Enter Password" name="password" required>
+                        <button type="submit">Submit</button>
+                        <label>
+                            Remember Me?<input id="rem" type="checkbox" checked="checked" name="remember">
+                        </label>
+                    </div>
+                    <div class="logincontainer">
+                        <a class="nohover" href="../index.html"><button type="button" class="cancelbtn">Cancel</button></a>
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                </form>
+            </div>
+        </article>
+    </body>  
+</html>
