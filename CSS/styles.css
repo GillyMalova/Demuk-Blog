@@ -34,13 +34,29 @@ nav ul li a {
     padding: 25px;
     font-weight: 600;
 }
+#nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffc13b;
+}
+#nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 a:hover {
     background-color: #091d35;
     cursor: hand;
 }
 #myblog {
     font-size: 25px;
-    color: #ff6e40 !important;
+    color: #ffc13b;
 }
 #home {
     margin-left: 100px;

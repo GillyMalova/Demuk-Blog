@@ -42,7 +42,7 @@ a:hover {
 }
 #myblog {
     font-size: 25px;
-    color: #ff6e40 !important;
+    color: #ffc13b;
 }
 #home {
     margin-left: 100px;
@@ -52,6 +52,12 @@ a:hover {
 }
 .navtext {
     font-size: 20px;
+}
+#nav-left {
+
+}
+#nav-center {
+
 }
 article {
     display: flex;
