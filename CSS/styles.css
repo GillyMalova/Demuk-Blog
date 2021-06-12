@@ -9,17 +9,17 @@ header {
     display: flex;
 }
 nav {
-    width: auto;
+    width: 100%;
     height: 70px;
     background: rgba(30,61, 89);
     position: fixed;
     align-items: center;
     top: 0; right: 0;bottom: 0; left: 0;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 nav ul {
-    padding: 25px;
 }
 nav ul li {
     display: inline-block;
