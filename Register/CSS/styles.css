@@ -9,7 +9,7 @@ header {
     display: flex;
 }
 nav {
-    width: auto;
+    width: 100%;
     height: 70px;
     background: rgba(30,61, 89);
     position: fixed;
@@ -40,7 +40,7 @@ a:hover {
     cursor: hand;
 }
 #myblog {
-    font-size: 25px;
+    font-size: 20px;
     color: #ffc13b;
 }
 #home {
@@ -51,6 +51,21 @@ a:hover {
 }
 .navtext {
     font-size: 20px;
+}
+#nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 article {
     display: flex;
