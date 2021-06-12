@@ -20,7 +20,6 @@ nav {
     justify-content: space-between;
 }
 nav ul {
-
 }
 nav ul li {
     display: inline-block;
@@ -34,6 +33,21 @@ nav ul li a {
     text-decoration: none;
     padding: 25px;
     font-weight: 600;
+}
+#nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 a:hover {
     background-color: #091d35;
@@ -51,21 +65,6 @@ a:hover {
 }
 .navtext {
     font-size: 20px;
-}
-#nav-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#nav-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#nav-right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 article {
     display: flex;
